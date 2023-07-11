@@ -1,0 +1,500 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "nama": "Makanan"
+    },
+    {
+      "id": 2,
+      "nama": "Minuman"
+    },
+    {
+      "id": 3,
+      "nama": "Cemilan"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "kode": "F-01",
+      "nama": "Ayam Bakar",
+      "harga": 20000,
+      "is_ready": true,
+      "gambar": "ayam-bakar.jpg",
+      "category": {
+        "id": 1,
+        "nama": "Makanan"
+      }
+    },
+    {
+      "id": 2,
+      "kode": "F-02",
+      "nama": "Ayam Geprek",
+      "harga": 18000,
+      "is_ready": true,
+      "gambar": "ayam-geprek.jpg",
+      "category": {
+        "id": 1,
+        "nama": "Makanan"
+      }
+    },
+    {
+      "id": 3,
+      "kode": "F-03",
+      "nama": "Ayam Gulai",
+      "harga": 25000,
+      "is_ready": true,
+      "gambar": "ayam-gulai.jpg",
+      "category": {
+        "id": 1,
+        "nama": "Makanan"
+      }
+    },
+    {
+      "id": 4,
+      "kode": "F-04",
+      "nama": "Sate Ayam",
+      "harga": 25000,
+      "is_ready": true,
+      "gambar": "sate-ayam.jpg",
+      "category": {
+        "id": 1,
+        "nama": "Makanan"
+      }
+    },
+    {
+      "id": 5,
+      "kode": "F-05",
+      "nama": "Sate Kambing",
+      "harga": 30000,
+      "is_ready": true,
+      "gambar": "sate-kambing.jpg",
+      "category": {
+        "id": 1,
+        "nama": "Makanan"
+      }
+    },
+    {
+      "id": 6,
+      "kode": "F-06",
+      "nama": "Sate Telur",
+      "harga": 3000,
+      "is_ready": true,
+      "gambar": "sate-telur.jpg",
+      "category": {
+        "id": 1,
+        "nama": "Makanan"
+      }
+    },
+    {
+      "id": 7,
+      "kode": "F-07",
+      "nama": "Bakso Urat",
+      "harga": 20000,
+      "is_ready": true,
+      "gambar": "bakso-urat.jpg",
+      "category": {
+        "id": 1,
+        "nama": "Makanan"
+      }
+    },
+    {
+      "id": 8,
+      "kode": "F-08",
+      "nama": "Bakso Aci",
+      "harga": 15000,
+      "is_ready": true,
+      "gambar": "bakso-aci.jpg",
+      "category": {
+        "id": 1,
+        "nama": "Makanan"
+      }
+    },
+    {
+      "id": 9,
+      "kode": "F-09",
+      "nama": "Bakso Ikan",
+      "harga": 17000,
+      "is_ready": true,
+      "gambar": "bakso-ikan.jpg",
+      "category": {
+        "id": 1,
+        "nama": "Makanan"
+      }
+    },
+    {
+      "id": 10,
+      "kode": "F-10",
+      "nama": "Mie Ayam",
+      "harga": 12000,
+      "is_ready": true,
+      "gambar": "mie-ayam.jpg",
+      "category": {
+        "id": 1,
+        "nama": "Makanan"
+      }
+    },
+    {
+      "id": 11,
+      "kode": "F-11",
+      "nama": "Mie Ayam Bakso",
+      "harga": 15000,
+      "is_ready": true,
+      "gambar": "mie-ayam-bakso.jpg",
+      "category": {
+        "id": 1,
+        "nama": "Makanan"
+      }
+    },
+    {
+      "id": 12,
+      "kode": "F-12",
+      "nama": "Bakmi Jamur",
+      "harga": 15000,
+      "is_ready": true,
+      "gambar": "bakmi-jamur.jpg",
+      "category": {
+        "id": 1,
+        "nama": "Makanan"
+      }
+    },
+    {
+      "id": 13,
+      "kode": "F-13",
+      "nama": "Nasi Goreng",
+      "harga": 15000,
+      "is_ready": true,
+      "gambar": "nasi-goreng.jpg",
+      "category": {
+        "id": 1,
+        "nama": "Makanan"
+      }
+    },
+    {
+      "id": 14,
+      "kode": "F-14",
+      "nama": "Mie Goreng",
+      "harga": 15000,
+      "is_ready": true,
+      "gambar": "mie-goreng.jpg",
+      "category": {
+        "id": 1,
+        "nama": "Makanan"
+      }
+    },
+    {
+      "id": 15,
+      "kode": "F-15",
+      "nama": "Kwetiau Goreng",
+      "harga": 15000,
+      "is_ready": true,
+      "gambar": "kwetiau-goreng.jpg",
+      "category": {
+        "id": 1,
+        "nama": "Makanan"
+      }
+    },
+    {
+      "id": 16,
+      "kode": "D-01",
+      "nama": "Lemon Tea",
+      "harga": 15000,
+      "is_ready": true,
+      "gambar": "lemon-tea.jpg",
+      "category": {
+        "id": 2,
+        "nama": "Minuman"
+      }
+    },
+    {
+      "id": 17,
+      "kode": "D-02",
+      "nama": "Thai Tea",
+      "harga": 15000,
+      "is_ready": true,
+      "gambar": "thai-tea.jpg",
+      "category": {
+        "id": 2,
+        "nama": "Minuman"
+      }
+    },
+    {
+      "id": 18,
+      "kode": "D-03",
+      "nama": "Milk Tea",
+      "harga": 20000,
+      "is_ready": true,
+      "gambar": "milk-tea.jpg",
+      "category": {
+        "id": 2,
+        "nama": "Minuman"
+      }
+    },
+    {
+      "id": 19,
+      "kode": "D-04",
+      "nama": "Cheese Tea",
+      "harga": 20000,
+      "is_ready": true,
+      "gambar": "cheese-tea.jpg",
+      "category": {
+        "id": 2,
+        "nama": "Minuman"
+      }
+    },
+    {
+      "id": 20,
+      "kode": "D-05",
+      "nama": "Matcha Latte",
+      "harga": 20000,
+      "is_ready": true,
+      "gambar": "matcha-latte.jpg",
+      "category": {
+        "id": 2,
+        "nama": "Minuman"
+      }
+    },
+    {
+      "id": 21,
+      "kode": "D-06",
+      "nama": "Alpukat Kocok",
+      "harga": 20000,
+      "is_ready": true,
+      "gambar": "alpukat-kocok.jpg",
+      "category": {
+        "id": 2,
+        "nama": "Minuman"
+      }
+    },
+    {
+      "id": 22,
+      "kode": "D-07",
+      "nama": "Espresso Coffee",
+      "harga": 20000,
+      "is_ready": true,
+      "gambar": "espresso-coffee.jpg",
+      "category": {
+        "id": 2,
+        "nama": "Minuman"
+      }
+    },
+    {
+      "id": 23,
+      "kode": "D-08",
+      "nama": "Biscuit Latte",
+      "harga": 25000,
+      "is_ready": true,
+      "gambar": "marie-biscuit-coffee-latte.jpg",
+      "category": {
+        "id": 2,
+        "nama": "Minuman"
+      }
+    },
+    {
+      "id": 24,
+      "kode": "D-09",
+      "nama": "Iced Latte",
+      "harga": 20000,
+      "is_ready": true,
+      "gambar": "iced-latte.jpg",
+      "category": {
+        "id": 2,
+        "nama": "Minuman"
+      }
+    },
+    {
+      "id": 25,
+      "kode": "D-10",
+      "nama": "Dalgona Coffee",
+      "harga": 20000,
+      "is_ready": true,
+      "gambar": "dalgona-coffee.jpg",
+      "category": {
+        "id": 2,
+        "nama": "Minuman"
+      }
+    },
+    {
+      "id": 26,
+      "kode": "D-11",
+      "nama": "Caramel Coffe",
+      "harga": 25000,
+      "is_ready": true,
+      "gambar": "caramel-coffee.jpg",
+      "category": {
+        "id": 2,
+        "nama": "Minuman"
+      }
+    },
+    {
+      "id": 27,
+      "kode": "D-12",
+      "nama": "Taro Boba",
+      "harga": 15000,
+      "is_ready": true,
+      "gambar": "taro-boba.jpg",
+      "category": {
+        "id": 2,
+        "nama": "Minuman"
+      }
+    },
+    {
+      "id": 28,
+      "kode": "D-13",
+      "nama": "Iced Choco Classic",
+      "harga": 15000,
+      "is_ready": true,
+      "gambar": "iced-choco-classic.jpeg",
+      "category": {
+        "id": 2,
+        "nama": "Minuman"
+      }
+    },
+    {
+      "id": 29,
+      "kode": "D-14",
+      "nama": "Hot Choco",
+      "harga": 15000,
+      "is_ready": true,
+      "gambar": "hot-choco.jpg",
+      "category": {
+        "id": 2,
+        "nama": "Minuman"
+      }
+    },
+    {
+      "id": 30,
+      "kode": "S-01",
+      "nama": "French Fries",
+      "harga": 15000,
+      "is_ready": true,
+      "gambar": "french-fries.jpg",
+      "category": {
+        "id": 3,
+        "nama": "Cemilan"
+      }
+    },
+    {
+      "id": 31,
+      "kode": "S-02",
+      "nama": "Roti Bakar",
+      "harga": 15000,
+      "is_ready": true,
+      "gambar": "roti-bakar.jpg",
+      "category": {
+        "id": 3,
+        "nama": "Cemilan"
+      }
+    },
+    {
+      "id": 32,
+      "kode": "S-03",
+      "nama": "Onion Ring",
+      "harga": 20000,
+      "is_ready": true,
+      "gambar": "onion-ring.jpg",
+      "category": {
+        "id": 3,
+        "nama": "Cemilan"
+      }
+    },
+    {
+      "id": 33,
+      "kode": "S-04",
+      "nama": "Pisang Kremes",
+      "harga": 15000,
+      "is_ready": true,
+      "gambar": "pisang-kremes.jpg",
+      "category": {
+        "id": 3,
+        "nama": "Cemilan"
+      }
+    },
+    {
+      "id": 34,
+      "kode": "S-05",
+      "nama": "Pancake",
+      "harga": 15000,
+      "is_ready": true,
+      "gambar": "pancake.jpg",
+      "category": {
+        "id": 3,
+        "nama": "Cemilan"
+      }
+    },
+    {
+      "id": 35,
+      "kode": "S-06",
+      "nama": "Waffle",
+      "harga": 20000,
+      "is_ready": true,
+      "gambar": "waffle.jpg",
+      "category": {
+        "id": 3,
+        "nama": "Cemilan"
+      }
+    },
+    {
+      "id": 36,
+      "kode": "S-07",
+      "nama": "Salad Sandwich",
+      "harga": 25000,
+      "is_ready": true,
+      "gambar": "salad-sandwich.jpg",
+      "category": {
+        "id": 3,
+        "nama": "Cemilan"
+      }
+    },
+    {
+      "id": 37,
+      "kode": "S-08",
+      "nama": "Choco Churros",
+      "harga": 20000,
+      "is_ready": true,
+      "gambar": "choco-churros.jpg",
+      "category": {
+        "id": 3,
+        "nama": "Cemilan"
+      }
+    },
+    {
+      "id": 38,
+      "kode": "S-09",
+      "nama": "Dimsum",
+      "harga": 15000,
+      "is_ready": true,
+      "gambar": "dimsum.jpg",
+      "category": {
+        "id": 3,
+        "nama": "Cemilan"
+      }
+    }
+  ],
+  "keranjangs": [],
+  "pesanans": [
+    {
+      "total_bayar": 25000,
+      "menus": [
+        {
+          "jumlah": 1,
+          "total_harga": 25000,
+          "product": {
+            "id": 3,
+            "kode": "F-03",
+            "nama": "Ayam Gulai",
+            "harga": 25000,
+            "is_ready": true,
+            "gambar": "ayam-gulai.jpg",
+            "category": {
+              "id": 1,
+              "nama": "Makanan"
+            }
+          },
+          "id": 1
+        }
+      ],
+      "id": 1
+    }
+  ]
+}
